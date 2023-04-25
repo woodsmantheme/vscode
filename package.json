@@ -1,0 +1,31 @@
+{
+  "name": "woodsman-theme",
+  "displayName": "Woodsman Theme",
+  "description": "Immerse yourself in your craft",
+  "publisher": "ryanolsonx",
+  "repository": "https://github.com/woodsmantheme/vscode",
+  "version": "0.0.1",
+  "license": "MIT",
+  "keywords": [
+    "dark",
+    "theme",
+    "earth",
+    "minimalist",
+    "woodsman"
+  ],
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+        {
+            "label": "Woodsman",
+            "uiTheme": "vs-dark",
+            "path": "./woodsman.json"
+        }
+    ]
+  }
+}
